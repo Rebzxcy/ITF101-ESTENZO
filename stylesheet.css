@@ -1,0 +1,72 @@
+body {
+    background-image: url('images/spcmodel.png'); 
+    background-size: cover;           
+    background-position: center;      
+    background-repeat: no-repeat;     
+    height: 100vh;                    
+    margin: 0;                        
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: -1;}
+
+   header {
+    background-color: white; 
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header {
+    width: 100%;
+    height: 20px;                     
+    background-image: url('images/logo.png');
+    background-size: contain;          
+    background-repeat: no-repeat;       
+    background-position: left;    
+    margin-right: 15px;
+    }
+ .head{
+   margin-top: -30;
+   display: flex;
+   display: inline-flex;
+   gap: 7%;
+ }
+.head h5 a {
+    text-decoration: none;
+    color: black;          
+    font-weight: bold;
+    transition: 0.3s;     
+    padding: 5px 10px;     
+    border-radius: 5px;   
+}
+
+
+.head h5 a:hover {
+    color: white;                 
+    background-color: black;      
+}
+
+.enroll-btn {
+    padding: 8px 16px;
+    background-color: #58020e; 
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.enroll-btn:hover {
+    background-color: #e56700;
+    transform: scale(1.05);
+}
