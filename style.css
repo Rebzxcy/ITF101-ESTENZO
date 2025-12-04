@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(90deg, rgba(27,156,207,1)0%,
+     rgba(87,199,133,1) 50%, rgba(237,221,83,1) 100%);
+
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+.profile img{
+   border-radius: 120px; }
+
+.container{ 
+ display: flex;
+ justify-content: center;
+ margin-right: 65%;
+ margin-top: -200px; 
+}
+ 	
+.list {
+ display: flex;
+ justify-content: center;
+ color: white;
+ margin-left: -60%; 
+}
+
+.exam{
+display: flex;
+justify-content: center;
+margin-top: -205px;
+color: red;
+}
+.quest {
+display: flex;
+justify-content: center;
+
+}
+.quest-2 {
+display: flex;
+justify-content: center;
+}
+.quest-3 {
+display: flex;
+justify-content: center;
+margin-left: -1%;
+}
+.quest-4 {
+display: flex;
+justify-content: center;
+margin-left: 8%;
+}
+.quest-5 {
+display: flex;
+justify-content: center; 
+margin-left: 4%;
+}
